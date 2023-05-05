@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/democracy-tools/countmein-density/internal/env"
+	"github.com/democracy-tools/go-common/env"
 	"github.com/sirupsen/logrus"
 )
 
