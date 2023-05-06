@@ -50,6 +50,11 @@ func GetWhatsAppFromPhone() string {
 	return failIfEmpty("WHATSAPP_FROM_PHONE")
 }
 
+func GetWhatsAppTemplate() string {
+
+	return failIfEmpty("WHATSAPP_TEMPLATE")
+}
+
 func GetSlackInfoUrl() string {
 
 	return failIfEmpty("SLACK_INFO_URL")
